@@ -4,11 +4,11 @@ Small JavaScript practice folders with separate HTML, CSS, and JS files.
 
 ## Structure
 
-- JS1/ - HTML, CSS, and JS for exercise 1
-- JS2/ - HTML, CSS, and JS for exercise 2
-- JS3/ - JS-only exercise
-- JS4/ - JS-only exercise
-- JS5/ - HTML, CSS, and JS for exercise 5
+- JS1/ - Markdown to HTML Converter
+- JS2/ - Drum Machine
+- JS3/ - Travel Poll Program (JS only)
+- JS4/ - Bank Account Management (JS only)
+- JS5/ - Weather App
 
 ## Use
 
