@@ -1,5 +1,6 @@
 // ================================
 // Weather App
+// @author: Paul Buchwald
 // ================================
 
 const citySelect = document.getElementById("city-select");

@@ -1,5 +1,6 @@
 // ================================
 // Travel Poll Program
+// @author: Paul Buchwald
 // ================================
 
 const poll = new Map();

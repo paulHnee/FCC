@@ -1,5 +1,6 @@
 // ================================
 // Bank Account Management Program
+// @author: Paul Buchwald
 // ================================
 
 class BankAccount {
