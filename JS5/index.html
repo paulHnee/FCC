@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Weather App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <header>
+        <h1>Weather Checker</h1>
+        <p>Pick a city to see current conditions.</p>
+      </header>
+
+      <section class="controls">
+        <label for="city-select">City</label>
+        <select id="city-select">
+          <option value=""></option>
+          <option value="paris">Paris</option>
+          <option value="london">London</option>
+          <option value="tokyo">Tokyo</option>
+          <option value="los angeles">Los Angeles</option>
+          <option value="chicago">Chicago</option>
+          <option value="new york">New York</option>
+        </select>
+        <button id="get-weather-btn" type="button">Get Weather</button>
+      </section>
+
+      <section class="panel">
+        <div class="summary">
+          <img id="weather-icon" alt="Weather icon" />
+          <div>
+            <p id="weather-main">--</p>
+            <p id="location">--</p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="stat">
+            <span>Main Temp</span>
+            <strong id="main-temperature">--</strong>
+          </div>
+          <div class="stat">
+            <span>Feels Like</span>
+            <strong id="feels-like">--</strong>
+          </div>
+          <div class="stat">
+            <span>Humidity</span>
+            <strong id="humidity">--</strong>
+          </div>
+          <div class="stat">
+            <span>Wind</span>
+            <strong id="wind">--</strong>
+          </div>
+          <div class="stat">
+            <span>Wind Gust</span>
+            <strong id="wind-gust">--</strong>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
